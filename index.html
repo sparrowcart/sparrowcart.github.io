@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>sparrowCart</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+   <link rel="" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" title="" type="" />
+   
+   <script src="https://kit.fontawesome.com/db5911aec8.js" crossorigin="anonymous"></script>
+   
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="20210418_185235.jpg" alt="" width="auto" height="50px" class="d-inline-block align-text-bottom"><b>SparrowCart</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+   <ul class="navbar-nav ml-auto">
+    <li class="nav-item active">
+     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link" href="#Latest Mobiles">Mobiles</a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link" href="#Laptop">Laptop</a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link" href="#footer">Cantact</a>
+    </li>
+    
+      </ul>
+  </div>
+ </nav>
+ 
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+   <div class="carousel-item active">
+    <img class="d-block w-100" src="banner1.jpg" alt="First slide">
+   </div>
+   <div class="carousel-item">
+    <img class="d-block w-100" src="banner.jpg" alt="Second slide">
+   </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+   <span class="sr-only">Next</span>
+  </a>
+  
+ </div>
+ <hr />
+<!--Carousel Wrapper-->
+<div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+    <li data-target="#video-carousel-example2" data-slide-to="1"></li>
+    
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <!-- First slide -->
+    <div class="carousel-item active">
+      <!--Mask color-->
+      <div class="view">
+        <!--Video source-->
+        <video class="video-fluid" autoplay loop muted>
+          <source src="HOMEPC.mp4" type="video/mp4" />
+        </video>
+        <div class="mask rgba-indigo-light"></div>
+      </div>
+
+      <!--Caption-->
+      <div class="carousel-caption">
+        <div class="animated fadeInDown">
+          <h3 class="h3-responsive"></h3>
+        </div>
+      </div>
+      <!--Caption-->
+    </div>
+    <div class="carousel-item">
+      <div class="view">
+        <video class="video-fluid" autoplay loop muted>
+          <source src="product.mp4" />
+        </video>
+        <div class="mask rgba-purple-slight"></div>
+      </div>
+
+      </div>
+      <!--Caption-->
+    </div>
+    <!-- /.Third slide -->
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#video-carousel-example2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#video-carousel-example2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
+</div>
+
+  <hr />  
+  <h2 style="text-align: center">Other exciting offers to consider</h2>
+  <hr />
+ <div id="tm-gallery-page-pizza" class="tm-gallery-page">
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<a target="_blank"  href="https://www.amazon.in/gp/product/B0864JWYQX/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B0864JWYQX&linkCode=as2&tag=sainicart-21&linkId=7b6c9655c7b12a5b59717363b0fa6285"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B0864JWYQX&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+							<figcaption>
+								<h4 class="tm-gallery-title">New Apple iPad Pro (11-inch, Wi-Fi, 128GB) - Space Grey (2nd Generation)</h4>
+								<p class="tm-gallery-description"></p>
+								<p class="tm-gallery-price">₹ 71,900.00</p>
+								<a target="_blank" href="https://www.amazon.in/s?k=ipad&amp;ref=nb_sb_noss_2&_encoding=UTF8&tag=sainicart-21&linkCode=ur2&linkId=0bf588ca7073db0bafbf9a2eb5320171&camp=3638&creative=24630"><u>Shop More</u></a>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<a target="_blank"  href="https://www.amazon.in/gp/product/B07YY1BY5B/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07YY1BY5B&linkCode=as2&tag=sainicart-21&linkId=a4cedb6f4ab7bf4c7e01a1a60a59f321"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B07YY1BY5B&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+							<figcaption>
+								<h4 class="tm-gallery-title">Noise Colorfit Pro 2 Full Touch Control Smart Watch (Jet Black)</h4>
+								<p class="tm-gallery-description"></p>
+								<p class="tm-gallery-price">₹ 2,599.00</p>
+								<a target="_blank" href="https://www.amazon.in/s?k=smart+watch&amp;ref=nb_sb_noss_2&_encoding=UTF8&tag=sainicart-21&linkCode=ur2&linkId=7853567ae093353ebef7e9440f0de3f6&camp=3638&creative=24630"><u>Shop More</u></a>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<a target="_blank"  href="https://www.amazon.in/gp/product/B07WSHWNH8/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07WSHWNH8&linkCode=as2&tag=sainicart-21&linkId=24a2028baf2750433ae30966cb2a2082"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B07WSHWNH8&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+							<figcaption>
+								<h4 class="tm-gallery-title">pTron Bassbuds in-Ear True Wireless Bluetooth 5.0 Headphones with Hi-Fi Deep Bass, 20Hrs Playtime with Case, Ergonomic Sweatproof Earbuds, Noise Isolation, Voice Assistance & Built-in Mic - (Black)</h4>
+								<p class="tm-gallery-description"></p>
+								<p class="tm-gallery-price">₹ 899.00</p>
+								<a target="_blank" href="https://www.amazon.in/s?k=bluetooth+headphones+earbuds&amp;crid=2497NPKSG71NQ&amp;sprefix=bluetooth+headphones+ear%252Caps%252C479&amp;ref=nb_sb_ss_ts-doa-p_1_24&_encoding=UTF8&tag=sainicart-21&linkCode=ur2&linkId=bc64279419aa69fd41143ae01abcd5c3&camp=3638&creative=24630"><u>Shop More</u></a>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<a target="_blank"  href="https://www.amazon.in/gp/product/B0922TBKM4/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B0922TBKM4&linkCode=as2&tag=sainicart-21&linkId=2a98571f85014f78ea426a2abfa8162c"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B0922TBKM4&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+							<figcaption>
+								<h4 class="tm-gallery-title">Bluetooth Speaker with HD Sound, 6H Playtime, FM, AUX, USB/SD Card Slot</h4>
+								<p class="tm-gallery-description"></p>
+								<p class="tm-gallery-price">₹ 508.00</p>
+								<a target="_blank" href="https://www.amazon.in/s?k=bluetooth+speakers&amp;crid=37SWAWEXJR203&amp;sprefix=bluetooth+sp%252Caps%252C336&amp;ref=nb_sb_ss_ts-doa-p_1_12&_encoding=UTF8&tag=sainicart-21&linkCode=ur2&linkId=c655bac3c1d377f693e714676d04328a&camp=3638&creative=24630"><u>Shop More</u></a>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<a target="_blank"  href="https://www.amazon.in/gp/product/B08L5FM4JC/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08L5FM4JC&linkCode=as2&tag=sainicart-21&linkId=64d4192a0724792b10eddcb9ebe8ace0"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08L5FM4JC&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+							<figcaption>
+								<h4 class="tm-gallery-title">SanDisk Ultra microSD UHS-I Card 64GB, 120MB/s R</h4>
+								<p class="tm-gallery-description"></p>
+								<p class="tm-gallery-price">₹ 679.00</p>
+								<a target="_blank" href="https://www.amazon.in/s?k=sandisk+memory+card&amp;crid=2KTVDS83NLNNS&amp;sprefix=sandisk+mem%252Caps%252C382&amp;ref=nb_sb_ss_ts-doa-p_1_11&_encoding=UTF8&tag=sainicart-21&linkCode=ur2&linkId=21ad07525cabb703adbabef949877f47&camp=3638&creative=24630"><u>Shop More</u></a>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<a target="_blank"  href="https://www.amazon.in/gp/product/B07BS4TJ43/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07BS4TJ43&linkCode=as2&tag=sainicart-21&linkId=145459c7a339650df615eb9551f6844e"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B07BS4TJ43&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+							<figcaption>
+								<h4 class="tm-gallery-title">Canon EOS 1500D 24.1 Digital SLR Camera (Black) with EF S18-55 is II Lens</h4>
+								
+								<p class="tm-gallery-description"></p>
+								<p class="tm-gallery-price">₹ 29,999.00</p>
+								<a target="_blank" href="https://www.amazon.in/s?k=camara+dsrl&amp;crid=2DLOV40UANLP8&amp;sprefix=camara%252Caps%252C310&amp;ref=nb_sb_ss_ts-doa-p_3_6&_encoding=UTF8&tag=sainicart-21&linkCode=ur2&linkId=792c499819c082e869131cd307feccfb&camp=3638&creative=24630"><u>Shop More</u></a>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<a target="_blank"  href="https://www.amazon.in/gp/product/B08QYSKH11/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08QYSKH11&linkCode=as2&tag=sainicart-21&linkId=487dd07b9cfda1879caece43230b9db2"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08QYSKH11&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+							<figcaption>
+								<h4 class="tm-gallery-title">OM SAI LATEST CREATION Designer Slub Rayon Fully Stitched Anarkali Kurti for Women & Girls on Jeans Palazzo or Skirt (Plus Size Upto 2XL)</h4>
+								<p class="tm-gallery-description"></p>
+								<p class="tm-gallery-price">₹ 419.00</p>
+								<a target="_blank" href="https://www.amazon.in/s?k=ladies+kurti+with+pant&amp;crid=3NCTCGNJXY5KR&amp;sprefix=ladies+kur%252Caps%252C357&amp;ref=nb_sb_ss_ts-doa-p_5_10&_encoding=UTF8&tag=sainicart-21&linkCode=ur2&linkId=cbb356ad89cb2db41568f47f7ff36681&camp=3638&creative=24630"><u>Shop More</u></a>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure><a target="_blank"  href="https://www.amazon.in/gp/product/B08L89VM35/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08L89VM35&linkCode=as2&tag=sainicart-21&linkId=425f1ffecda8a146018ea3f6b171122e"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08L89VM35&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+							<figcaption>
+								<h4 class="tm-gallery-title">New Apple iPhone 11 (128GB) - White</h4>
+								<p class="tm-gallery-description"></p>
+								<p class="tm-gallery-price">₹ 59,900.00</p>
+								<a target="_blank" href="https://www.amazon.in/s?k=apple+iphone&amp;crid=2MXXLUJLPNT7F&amp;sprefix=apple+ip%252Caps%252C451&amp;ref=nb_sb_ss_ts-doa-p_1_8&_encoding=UTF8&tag=sainicart-21&linkCode=ur2&linkId=33140fa5c85f090dc9557e3daf387ef1&camp=3638&creative=24630"><u>Shop More</u></a>
+							</figcaption>
+						</figure>
+					</article>
+				</div> 
+
+<div id="Latest Mobiles">
+<div class="col-xs-12 head3" > 
+   <h3 class="hed3" >Latest Mobiles<span></span></h3>
+ </div>
+  
+</div>
+
+  <div id="tm-gallery-page-pizza" class="tm-gallery-page">
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure>
+        <a target="_blank"  href="https://www.amazon.in/gp/product/B07SBJXQC7/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07SBJXQC7&linkCode=as2&tag=sainicart-21&linkId=bbb544df6ece688ca75078044c5fe225"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B07SBJXQC7&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>  <figcaption>
+          <h4 class="tm-gallery-title">OPPO Reno2 (Luminous Black, 8GB RAM, 256GB Storage)</h4>
+          <p class="tm-gallery-description"></p>
+          <p class="tm-gallery-price">₹ 38,990.00</p>
+        </figcaption>
+      </figure>
+    </article>
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure>
+<a target="_blank"  href="https://www.amazon.in/gp/product/B08DFK51ST/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08DFK51ST&linkCode=as2&tag=sainicart-21&linkId=a03465ecb5d6d95f2319eda67e1d1e42"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08DFK51ST&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+        <figcaption>
+          <h4 class="tm-gallery-title">Realme X3 SuperZoom (Arctic White, 256 GB) (12 GB RAM)</h4>
+          <p class="tm-gallery-description"></p>
+          <p class="tm-gallery-price">₹ 32,990.00</p>
+        </figcaption>
+      </figure>
+    </article>
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure>
+        <a target="_blank"  href="https://www.amazon.in/gp/product/B08696XB4B/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08696XB4B&linkCode=as2&tag=sainicart-21&linkId=d85e68a708923520d9c30bd1a4c0abc3"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08696XB4B&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+        <figcaption>
+          <h4 class="tm-gallery-title">Redmi 9A (Nature Green, 2GB Ram, 32GB Storage) | 2GHz Octa-core Helio G25 Processor</h4>
+          <p class="tm-gallery-description"></p>
+          <p class="tm-gallery-price">₹ 6,799.00</p>
+        </figcaption>
+      </figure>
+    </article>
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure>
+<a target="_blank"  href="https://www.amazon.in/gp/product/B089MT36T8/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B089MT36T8&linkCode=as2&tag=sainicart-21&linkId=c66598a275abfc75a0f0ce988fa1f54e"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B089MT36T8&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+        <figcaption>
+          <h4 class="tm-gallery-title">Redmi Note 10 (Aqua Green, 4GB RAM, 64GB Storage) - Super Amoled Display | 48MP Sony Sensor IMX582 | Snapdragon 678 Processor</h4>
+          <p class="tm-gallery-description"></p>
+          <p class="tm-gallery-price">₹ 11,999.00</p>
+        </figcaption>
+      </figure>
+    </article>
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure><a target="_blank"  href="https://www.amazon.in/gp/product/B07XVMDRZW/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07XVMDRZW&linkCode=as2&tag=sainicart-21&linkId=3ef4b6a37943073b8418c18f2083cc1b"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B07XVMDRZW&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+        <figcaption>
+          <h4 class="tm-gallery-title">Apple iPhone 11 Pro Max (256GB) - Midnight Green</h4>
+          <p class="tm-gallery-description"></p>
+          <p class="tm-gallery-price">₹ 93,900.00</p>
+        </figcaption>
+      </figure>
+    </article>
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure>
+        <a target="_blank"  href="https://www.amazon.in/gp/product/B08XJG8MQM/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08XJG8MQM&linkCode=as2&tag=sainicart-21&linkId=6e7d1baac4db7cf002d19eceec4c1551"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08XJG8MQM&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>  <figcaption>
+          <h4 class="tm-gallery-title">Samsung Galaxy M12 (Blue,6GB RAM, 128GB Storage) 6000 mAh with 8nm Processor | True 48 MP Quad Camera | 90Hz Refresh Rate</h4>
+          <p class="tm-gallery-description"></p>
+          <p class="tm-gallery-price">₹ 13,499.00 </p>
+        </figcaption>
+      </figure>
+    </article>
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure>
+        <a target="_blank"  href="https://www.amazon.in/gp/product/B08LRD6YM1/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08LRD6YM1&linkCode=as2&tag=sainicart-21&linkId=70573791b1b7ecaec8e9ed67cf35e0b0"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08LRD6YM1&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+        <figcaption>
+          <h4 class="tm-gallery-title">Vivo Y20G (Purist Blue, 6GB, 128GB Storage) with No Cost EMI/Additional Exchange Offers</h4>
+          <p class="tm-gallery-description"></p>
+          <p class="tm-gallery-price">₹ 14,990.00</p>
+        </figcaption>
+      </figure>
+    </article>
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure><a target="_blank"  href="https://www.amazon.in/gp/product/B08XGDN3TZ/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08XGDN3TZ&linkCode=as2&tag=sainicart-21&linkId=67cd1283631c44a02e882eeacc574940"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08XGDN3TZ&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+        <figcaption>
+          <h4 class="tm-gallery-title">Samsung Galaxy M12 (Blue,4GB RAM, 64GB Storage) 6000 mAh with 8nm Processor | True 48 MP Quad Camera | 90Hz Refresh Rate</h4>
+          <p class="tm-gallery-description"></p>
+          <p class="tm-gallery-price">₹ 10,999.00</p>
+        </figcaption>
+      </figure>
+    </article>
+  </div>
+  <div id="Laptop">
+    <div class="col-xs-12 head3">
+      <h3 class="hed3">Best by Laptops<span></span></h3>
+    </div>
+  </div>
+  <div id="tm-gallery-page-pizza" class="tm-gallery-page">
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure>
+        <a target="_blank"  href="https://www.amazon.in/gp/product/B08X4N3DW2/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08X4N3DW2&linkCode=as2&tag=sainicart-21&linkId=4972c084326313dfc5d1074ca84dc493"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08X4N3DW2&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+        <figcaption>
+          <h4 class="tm-gallery-title">Dell Inspiron 3502 15.6" HD Display Laptop (Pentium Silver N5030 / 4GB / 256GB SSD / Integrated Graphics / Win 10 + MSO / Accent Black) D560427WIN9BE</h4>
+          <p class="tm-gallery-description"></p>
+          <p class="tm-gallery-price">₹ 29,324.00</p>
+        </figcaption>
+      </figure>
+    </article>
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure>
+        <a target="_blank"  href="https://www.amazon.in/gp/product/B08TQQ4ZHM/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08TQQ4ZHM&linkCode=as2&tag=sainicart-21&linkId=018876465c2ec6419beaa4a107a952d8"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08TQQ4ZHM&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+        <figcaption>
+          <h4 class="tm-gallery-title">Lenovo IdeaPad Slim 3 Intel Celeron N4020 15.6-inch HD Thin and Light Laptop (4GB/256GB SSD/Windows 10/Platinum Grey/1.7Kg), 81WQ003LIN</h4>
+          <p class="tm-gallery-description"></p>
+          <p class="tm-gallery-price">₹ 25,490.00</p>
+        </figcaption>
+      </figure>
+    </article>
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure>
+        <a target="_blank" href="https://www.amazon.in/gp/product/B08RFTYKFZ/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08RFTYKFZ&linkCode=as2&tag=sainicart-21&linkId=03b8957b276f626872a0d114bf68393a"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08RFTYKFZ&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21"></a>
+    	<figcaption>
+         <h4 class="tm-gallery-title">HP 15 Entry Level 15.6-inch HD Laptop (AMD 3020e/4GB/1TB HDD/Windows 10 Home/Jet Black/1.74 Kg), 15s-gy0003AU</h4>
+        <p class="tm-gallery-description"></p>
+        <p class="tm-gallery-price">₹ 23,990.00</p>
+        </figcaption>
+      </figure>
+    </article>
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure>
+        <a target="_blank"  href="https://www.amazon.in/gp/product/B08DDZLCQF/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08DDZLCQF&linkCode=as2&tag=sainicart-21&linkId=7420998ab8a8291cc0ca65816fa6c06c"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08DDZLCQF&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+        <figcaption>
+          <h4 class="tm-gallery-title">AVITA Essential NE14A2INC433-MB 14-inch Laptop (Celeron N4000/4GB/128GB SSD/Window 10 Home in S Mode/Integrated Graphics), Matt Black</h4>
+          <p class="tm-gallery-description"></p>
+          <p class="tm-gallery-price">₹ 18,990.00</p>
+        </figcaption>
+      </figure>
+    </article>
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure><a target="_blank"  href="https://www.amazon.in/gp/product/B08PQVMPKS/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08PQVMPKS&linkCode=as2&tag=sainicart-21&linkId=68a273dc351b4c9b4d58228b73d3c4ae"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08PQVMPKS&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+        <figcaption>
+          <h4 class="tm-gallery-title">ASUS VivoBook 14 (2020) Intel Quad Core Pentium Silver N5030, 14-inch FHD Thin and Light Laptop (4GB RAM/1TB HDD/Windows 10/Integrated Graphics/Transparent Silver/1.5 Kg), X415MA-EK101T</h4>
+          <p class="tm-gallery-description"></p>
+          <p class="tm-gallery-price">₹ 24,990.00</p>
+        </figcaption>
+      </figure>
+    </article>
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure>
+        <a target="_blank"  href="https://www.amazon.in/gp/product/B08HLKC8ZL/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08HLKC8ZL&linkCode=as2&tag=sainicart-21&linkId=9d92faec98fc0508198a3ab4b5f68ac2"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08HLKC8ZL&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+        <figcaption>
+          <h4 class="tm-gallery-title">Lenovo ThinkPad E15 Intel Core i5 10th Gen 15.6-inch Full HD IPS Thin and Light Laptop (8GB RAM/ 1TB HDD + 128GB SSD/ Windows 10 Home/ Microsoft Office Home & Student 2019 / Black/ 1.9 kg), 20RDS18B00</h4>
+          <p class="tm-gallery-description"></p>
+          <p class="tm-gallery-price">₹ 59,490.00</p>
+        </figcaption>
+      </figure>
+    </article>
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure>
+        <a target="_blank"  href="https://www.amazon.in/gp/product/B0864HXDG1/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B0864HXDG1&linkCode=as2&tag=sainicart-21&linkId=ee139aedb70a57735b784443c8b01e86"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B0864HXDG1&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+        <figcaption>
+          <h4 class="tm-gallery-title">Apple MacBook Air (13-inch, 1.1GHz Dual-core 10th-Generation Intel Core i3 Processor, 8GB RAM, 256GB Storage) - Gold</p>
+          <p class="tm-gallery-price">₹ 87,031.00</p>
+        </figcaption>
+      </figure>
+    </article>
+    <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+      <figure><a target="_blank"  href="https://www.amazon.in/gp/product/B08PVX9LZR/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B08PVX9LZR&linkCode=as2&tag=sainicart-21&linkId=d4d37dc35e6ea9ea4a162b09816f357f"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08PVX9LZR&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=sainicart-21" ></a>
+        <figcaption>
+          <h4 class="tm-gallery-title">(Renewed) Dell Latitude 14 inch Laptop (Intel Core 2 Duo P8400/ 4 GB/ 500 GB/ Wifi/Web cam/Windows Pro OS/MS Office/ 6 Months Warranty)</h4>
+          <p class="tm-gallery-description"></p>
+          <p class="tm-gallery-price">₹ 21,999.00</p>
+        </figcaption>
+      </figure>
+    </article>
+  </div>
+  
+
+ <div class="col-xs-12 head3" > 
+   <h3 class="hed3" >Exciting Product<span></span></h3>
+ </div>
+
+     <div class="customer-logos"> 
+   
+  <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B08444S68L&asins=B08444S68L&linkId=363e3d42cdc12787440d9eec95141cac&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+  </iframe></div>
+  <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B086978F2L&asins=B086978F2L&linkId=d8be6dd359a6323a661fabd350098142&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+  </iframe></div>
+  <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B08LRGCNDV&asins=B08LRGCNDV&linkId=540714b038d6e5f1b31c304048efe687&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+  </iframe></div>
+ <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B08697N43N&asins=B08697N43N&linkId=1448dee6b4fbccf79761aee4a1d688e7&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+ </iframe>
+ </div>
+  <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B08B42LWKN&asins=B08B42LWKN&linkId=03b8da7f330783ea9cf71bc2079d16ec&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+  </iframe></div>
+   <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B08GXC2NTX&asins=B08GXC2NTX&linkId=c97b79adc3222e68119e52ae5ec0ed26&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+   </iframe></div>
+    <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B0869855B8&asins=B0869855B8&linkId=ac5c788f869c71d001f81ed1ed890368&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe></div>
+     <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B086977TR6&asins=B086977TR6&linkId=ba594bf89424b5f16772a2d0ab09f717&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+     </iframe></div>
+      <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B07YNTJ8ZM&asins=B07YNTJ8ZM&linkId=fbcdee67ce47cde576d85e0491f91d19&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+      </iframe></div>
+       <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B071Z8M4KX&asins=B071Z8M4KX&linkId=e70e102b81db50a5ad94abf6f0d0d079&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+       </iframe></div>
+    <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B08HVJCW95&asins=B08HVJCW95&linkId=a1d37e550f778c31074d64351290aeca&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe></div>       <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B07HJD1KH4&asins=B07HJD1KH4&linkId=c90c9d724b22e38ae02b5c4a820eaa4a&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe></div>
+       <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B08V59TKZF&asins=B08V59TKZF&linkId=227a9e3aabf30b345331f594d849c826&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+       </iframe></div>
+    <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B07S9S86BF&asins=B07S9S86BF&linkId=11caaf2b981882e56db8135f60396e45&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe></div>
+     <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B07MPZ1B3C&asins=B07MPZ1B3C&linkId=30961380f6421e092e22a29f6f34d733&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+     </iframe></div>
+    <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B07FPV716J&asins=B07FPV716J&linkId=c90769b0356ccf043eb34284a4fa0207&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe></div>
+    <div class="slide"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sainicart-21&marketplace=amazon&amp;region=IN&placement=B01E3Z7QGS&asins=B01E3Z7QGS&linkId=be432050c6291204a9fb830f4ff99dd1&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe></div>
+ 
+</div>
+  
+
+<script>
+$(document).ready(function() {
+  $('.customer-logos').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 3
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 2
+      }
+    }]
+  });
+});
+
+</script>
+	
+<footer id="footer" class="footer-1">
+<div class="main-footer widgets-dark typo-light">
+<div class="container">
+<div class="row">
+  
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget subscribe no-box">
+<h5 class="widget-title">About Us</h5>
+<p>SparrowCart is the online shopping destination.Have a great shopping experience!</p>
+</div>
+</div>
+
+
+
+<div class="col-xs-12 col-sm-6 col-md-3">
+
+<div class="widget no-box">
+<h5 class="widget-title">Contact Us</h5>
+<!-- <p><i class="fas fa-mobile-alt"></i></p> -->
+
+<p><a href="mailto:sainitravelservices96@gmail.com" title="glorythemes">sainitravelservices96@gmail.com</a></p>
+<ul class="social-footer2">
+<li class=""><a title="youtube" target="_blank" href="https://www.youtube.com/"><img alt="youtube" width="30" height="30" src="data:image/png;base64,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"></a></li>
+<li class=""><a href="https://www.facebook.com/" target="_blank" title="Facebook"><img alt="Facebook" width="30" height="30" src="data:image/png;base64,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"></a></li>
+<li class=""><a href="https://twitter.com" target="_blank" title="Twitter"><img alt="Twitter" width="30" height="30" src="data:image/png;base64,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"></a></li>
+<li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/"><img alt="instagram" width="30" height="30" src="data:image/png;base64,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"></a></li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+  
+<div class="footer-copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+<p>Copyright Company SainiBros © 2019. All rights reserved.</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+ 
+<script src="main.js"></script>
+</body>
+</html>
